@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard">
+
+    <!--Floating action button for add alarm-->
+    <!--Make sure that you are constraining this
+        button to the parent button-->
+    <!--Make sure to add backgroundTint attribute to match
+         the entire application color-->
+    <!--because after changing the base application theme the color
+         of the FAB is set Blue as default-->
+
+    <!--Action name text for the add alarm button-->
+    <!--Make sure that you are constraining this
+        Text to the add Alarm FAB button-->
+
+    <!--Floating action button for add person-->
+    <!--Make sure that you are constraining this button
+        to the add Alarm FAB button-->
+    <!--Make sure to add backgroundTint attribute to match
+         the entire application color-->
+    <!--because after changing the base application theme
+         the color of the FAB is set Blue as default-->
+
+    <!--Action name text for the add person button-->
+    <!--Make sure that you are constraining this Text
+         to the add Person FAB button-->
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/choose_file_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/choose_word_file_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="18dp"
+        android:backgroundTint="@color/white"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toTopOf="@+id/add_fab"
+        app:layout_constraintEnd_toEndOf="@+id/add_fab"
+        app:srcCompat="@drawable/pdf_file" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/home_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/choose_word_file_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="90dp"
+        android:backgroundTint="@color/white"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toTopOf="@+id/add_fab"
+        app:layout_constraintEnd_toEndOf="@+id/add_fab"
+        app:srcCompat="@drawable/ic_baseline_home_24" />
+
+    <TextView
+        android:id="@+id/add_alarm_action_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="185dp"
+        android:layout_toStartOf="@+id/choose_file_btn"
+        android:text="Pdf" />
+
+    <TextView
+        android:id="@+id/home_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="250dp"
+        android:layout_toStartOf="@+id/choose_file_btn"
+        android:text="Home" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/choose_word_file_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/add_fab"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="29dp"
+        android:backgroundTint="@color/white"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/word" />
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/add_person_action_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="113dp"
+        android:layout_toStartOf="@+id/choose_word_file_btn"
+        android:text="Word"
+        app:layout_constraintBottom_toBottomOf="@+id/choose_word_file_btn"
+        app:layout_constraintEnd_toStartOf="@+id/choose_word_file_btn"
+        app:layout_constraintTop_toTopOf="@+id/choose_word_file_btn" />
+
+    <TextView
+        android:id="@+id/path_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="File Path"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:textSize="10sp" />
+
+
+
+    <TextView
+        android:id="@+id/translateLanguageTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+  android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+
+      android:layout_marginBottom="200dp"
+        />
+
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/add_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="end"
+
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="DocFormat"
+        app:icon="@drawable/ic_baseline_add_24" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp">
+
+        <TextView
+            android:id="@+id/file_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/mk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/path_tv"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toStartOf="@+id/add_person_action_text"
+        android:background="@drawable/button"
+        android:text="TRANSLATE" />
+
+
+</RelativeLayout>

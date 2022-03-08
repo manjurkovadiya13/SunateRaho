@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "314290385539",
+    "project_id": "sunateraho",
+    "storage_bucket": "sunateraho.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314290385539:android:06116724a1438e74aba1b6",
+        "android_client_info": {
+          "package_name": "com.example.sunateraho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314290385539-pk5a7sivt0jou56ngqsh9js6knecfjhf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDISM9z5rcOxRSrtZYnOy87wqG7iZoM6FY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314290385539-pk5a7sivt0jou56ngqsh9js6knecfjhf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

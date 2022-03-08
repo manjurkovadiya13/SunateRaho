@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/circleyellowfil.xml" value="0.3260416666666667" />
+        <entry key="app/src/main/res/drawable-v24/circular_grey_bordersolid.xml" value="0.1859375" />
+        <entry key="app/src/main/res/drawable/button.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/edit_text.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/ic_baseline_swap_horiz_24.xml" value="0.23796296296296296" />
+        <entry key="app/src/main/res/drawable/ic_bg_topheader.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/ic_course_book.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/ic_icons8_google.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/ic_iconsgoogle.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/drawable/ic_profile.xml" value="0.23796296296296296" />
+        <entry key="app/src/main/res/drawable/view_bg.xml" value="0.24351851851851852" />
+        <entry key="app/src/main/res/layout/activity_base.xml" value="0.2830267924730253" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.2538735871456033" />
+        <entry key="app/src/main/res/layout/activity_dashboardmain.xml" value="0.3071793447855907" />
+        <entry key="app/src/main/res/layout/activity_gujaratioutput.xml" value="0.2351851851851852" />
+        <entry key="app/src/main/res/layout/activity_hinditraslate.xml" value="0.275" />
+        <entry key="app/src/main/res/layout/activity_otpscreen.xml" value="0.29375" />
+        <entry key="app/src/main/res/layout/activity_output__translated.xml" value="0.275" />
+        <entry key="app/src/main/res/layout/activity_outputmove.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_photo_editor.xml" value="0.275" />
+        <entry key="app/src/main/res/layout/activity_preview.xml" value="0.275" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.3276479763666551" />
+        <entry key="app/src/main/res/layout/activity_timepass.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_users_profile.xml" value="0.26556861228089146" />
+        <entry key="app/src/main/res/layout/activity_verifyotp.xml" value="0.23380496509487234" />
+        <entry key="app/src/main/res/layout/fragment_zip_to_pdf.xml" value="0.275" />
+        <entry key="app/src/main/res/layout/login_tab_fragment.xml" value="0.275" />
+        <entry key="app/src/main/res/layout/signup_fragment.xml" value="0.275" />
+        <entry key="app/src/main/res/layout/spinner_item.xml" value="0.262037037037037" />
+        <entry key="app/src/main/res/menu/activity_crop_image.xml" value="0.275" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.275" />
+        <entry key="app/src/main/res/menu/menu_main.xml" value="0.275" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_manjurprofile.xml" value="0.23796296296296296" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
